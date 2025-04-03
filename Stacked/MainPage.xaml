@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+    <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stacked.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <!--
+            <Image
+                Source="stackedlogo.png"
+                HeightRequest="185"
+                Aspect="AspectFit" />
+            -->
+            <Grid ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Image
+                    Source="bacon.png."
+                    HeightRequest="64"
+                    Aspect="AspectFit" 
+                    Grid.Row="0"
+                    Grid.Column="0"/>
+            </Grid>
+            <!--
+            <Grid
+                Padding="30,0"
+                Spacing="25">
+                <Image 
+                    Source="bacon.png"
+                    HeightRequest="64"
+                    Aspect="AspectFill" />
+                <Image
+                    Source="bread.png"
+                    HeightRequest="64"
+                    Aspect="AspectFill"  />
+                <Image 
+                    Source="cheese.png"
+                    HeightRequest="72"
+                    Aspect="AspectFill"/>
+                <Image
+                    Source="lettuce.png"
+                    HeightRequest="64"
+                    Aspect="AspectFill" />
+            </Grid>
+            -->
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
